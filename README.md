@@ -1,2 +1,1 @@
-# portfolio-website
-Website to show my portfolio.
+This is a project to show off my portfolio to potential employers.
