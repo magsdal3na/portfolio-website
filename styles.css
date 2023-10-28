@@ -168,6 +168,18 @@ h2 {
 
 /* Projects */
 
+#links {
+  color: #696969; 
+}
+
+#links:hover {
+  color: #515A5A;
+}
+
+#links:visited {
+  color: black;
+}
+
 .projects-container {
   margin-top: 30px;
   margin-left: 60px;
