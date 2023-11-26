@@ -46,38 +46,66 @@
 
       <div class="all_skills">
         <div class="skill">
-          <img src="https://www.svgrepo.com/show/508837/html5-01.svg"/>
+          <img src="https://www.svgrepo.com/show/508837/html5-01.svg" alt="HTML5 Logo"/>
           <h6>HTML</h6>
           <p>3 months experience</p>
         </div>  
 
         <div class="skill">
-          <img src="https://www.svgrepo.com/show/508794/css3-01.svg"/>
+          <img src="https://www.svgrepo.com/show/508794/css3-01.svg"alt="CSS 3 Logo"/>
           <h6>CSS</h6>
           <p>3 months experience</p>
         </div>  
 
         <div class="skill">
-            <img src="https://icon-library.com/images/ipad-icon-png/ipad-icon-png-18.jpg"/>
+            <img src="https://icon-library.com/images/ipad-icon-png/ipad-icon-png-18.jpg" alt="iPad"/>
             <h6>Digital Art</h6>
             <p>3 years experience</p>
           </div> 
 
           <div class="skill">
-            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460327.png"/>
+            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460327.png" alt="Yarn"/>
             <h6>Crochet</h6>
             <p>2 years experience</p>
           </div>
           
           <div class="skill">
-            <img src="https://www.svgrepo.com/show/488023/writing.svg"/>
+            <img src="https://www.svgrepo.com/show/488023/writing.svg" alt="Pencil"/>
             <h6>Creative Writing</h6>
             <p>10+ years experience</p>
           </div>   
 
       </div>
     </section>
-          
+   
+    <!-- Certificates -->
+    <section id="skills">
+      <h2>Certificates</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://www.svgrepo.com/show/341718/coursera.svg" alt="Coursera Logo"/>
+
+          <h6>Software Engineering Essentials</h6>
+          <p>Issued September 2023</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://www.svgrepo.com/show/341718/coursera.svg" alt="Coursera Logo"/>
+          <h6>Web Development with HTML, CSS, JavaScript Essentials</h6>
+          <p>Issued October 2023</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://www.svgrepo.com/show/341718/coursera.svg" alt="Coursera Logo"/>
+            <h6>Git and GitHub Essentials</h6>
+            <p>Issued October 2023</p>
+          </div>   
+
+      </div>
+    </section>
+    
     <!-- Projects -->
     <section class="projects" id="projects">
       <h2>
@@ -136,22 +164,22 @@
 
     <!-- Recommendations -->
     <section id="recommendations">
-      <h2>Recommendations</h2>
+      <h2>A Bit About Me</h2>
       <div style="clear:both;"></div>
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          I've had the pleasure of collaborating with Maggie on multiple coding projects. Her expertise and attention to detail are truly impressive. I can't wait to see what she comes up with next.
+          I have soft skills in communication, teamwork, problem-solving, and efficiency. I adapt easily to new job tasks and am able to work with a variety of team members. I enjoy problem solving and seek out tasks where I have to fix something and learn in the process.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I've followed Maggie's programming journey for some time now, and I'm continually inspired by her work. Her banking website is a reflection of her commitment to learning how to program.
+          I have hard skills in Microsoft Office Suite and Google Suite, Adobe Photoshop and Illustrator, Writing, Editing, Proofreading, Microsoft Navision (NAV) along with CRM, and Web Development. 
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Maggie is a great person to work with and is a team player. She is a quick learner and is always trying to learn new things!
+          I am a friendly and honest person. I keep to myself a majority of the time, but I do enjoy meeting those I work with and building relationships. I am easy to get along with and am always working to improve myself.
           <span>&#8221;</span>
         </div>
       </div>
@@ -161,7 +189,7 @@
     <section id="contact">
       <div class="flex_center">
         <fieldset>
-          <legend class="introduction">Recommendation Submission Example</legend>          
+          <legend class="introduction">Comment Submission Example</legend>          
           <input type="text" placeholder="Name (Optional)"> <br/>
           <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
           <div class="flex_center">
@@ -180,9 +208,9 @@
     </div>
 
     <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>  Thank you for submitting a recommendation!  </h3>
-      <button onclick="showPopup(true)">Ok</button>
+      <img src="https://www.svgrepo.com/show/491592/checkmark.svg"/>
+      <h3>  Thank you for submitting a comment! Your submission has been added temporarily.  </h3>
+      <button id="closeButton" onclick="showPopup(true)">Ok</button>
     </div>
   </body>
 </html>
