@@ -25,3 +25,8 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
+
+// Close popup window after OK is clicked //
+document.getElementById('closeButton').addEventListener('click', function() {
+	showPopup(false);
+})
