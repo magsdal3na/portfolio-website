@@ -106,26 +106,25 @@ h2 {
   font-size: 65px;
   margin-top: 90px;
   color: #696969;
-  margin-left: 120px;
+  margin-left: 100px;
 }
 
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
   margin-top: -1cm;
-  margin-left: 120px;
+  margin-left: 100px;
 }
 
 .profile_image {
   width: 450px;
-  height: fit-content;
-  vertical-align: middle;
+  height: 450px;
   margin-top: 90px;
-  border-style: solid;
-  border-radius: 145px;
-  border-color: #696969;
-  max-width: 140%;
-  max-height: 140%;
+  border: 3px solid #696969;
+  border-radius: 50%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Skills */
