@@ -101,14 +101,14 @@ h2 {
   font-size: 65px;
   margin-top: 90px;
   color: #696969;
-  margin-left: 30px;
+  margin-left: 120px;
 }
 
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
   margin-top: -1cm;
-  margin-left: 30px;
+  margin-left: 120px;
 }
 
 .profile_image {
@@ -117,8 +117,9 @@ h2 {
   vertical-align: middle;
   margin-top: 90px;
   border-style: solid;
-  border-radius: 25px;
+  border-radius: 120px;
   border-color: #696969;
+  max-width: 170%;
 }
 
 /* Skills */
